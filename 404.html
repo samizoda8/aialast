@@ -28,17 +28,7 @@
     <link rel="stylesheet" href="assets/css/tg-cursor.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const userLang = navigator.language || navigator.userLanguage || ""; // Обработка случая, если язык отсутствует
 
-        if (userLang === "" || userLang.startsWith("ru")) { // Если пусто или язык начинается с "ru"
-            window.location.replace("/404");
-        } else {
-            document.body.innerHTML = "<h1>Страница не найдена!</h1>";
-        }
-    });
-</script>
 
   
 <body>
